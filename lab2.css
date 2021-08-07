@@ -1,0 +1,446 @@
+.part1_container{
+    background-image: url(./img-web-demo-master/hero.jpg);
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.part1_container_opacity{
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.part1_box{
+    position: absolute;
+}
+.part1_logo img{
+    height: 80px;
+    width: 80px;
+}
+.taskbarcontent{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0 50px;
+
+}
+.part1_borderbottom{
+    border-bottom: 2px solid yellow;
+    width: 120%;
+}
+.part1_taskbar{
+    max-width: 1300px;
+    padding: 50px;
+    margin-left: 15%;
+    display: flex;
+}
+.taskbarcontent_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.part1_logo{
+    margin-right: 70px;
+}
+.second_maindetail div{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 150;
+    line-height: 60px;
+}
+.second_buttons{
+    display: flex;
+    margin-top: 3%;
+}
+.button button{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.button1{
+    background-color: orange;
+}
+.button2{
+    background-color: transparent;
+    border: solid 2px orange;
+}
+.button1 a{
+    color: white;
+}
+.button2{
+    color: orange;
+}
+.part1_secondcontainer{
+    margin-left: 10%;
+    margin-top: 8%;
+    color: white;
+}
+.second_maindetail{
+    box-sizing: border-box;
+}
+.part2_topcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: lightgray;
+}
+.part2_borderbottom{
+    width: 20%  ;
+    border: solid 1.5px orange;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.part2_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.part2_subtitle div{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.content_title{   
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.maincontent{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 80%;
+}
+.part2_maincontent_container{
+    display: flex;
+    flex-direction: row;
+}
+.part2_contentbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+#emojies{
+    color: orange;
+    margin-top:20px ;
+}
+.part3_subcontainer1 img{
+    width: 100%;
+    height: 275px;
+    border: none;
+    display: block;
+}
+.part3_subcontainer1{
+    display: flex;
+    width: 25%;
+}
+.part3_container{
+    margin-top: 20px;
+}
+.part4_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(229 228 228 / 40%);
+}
+
+.part4_container_little h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.part4_borderbottom {
+    border-bottom: 2px solid orange;
+    width: 20%;
+}
+
+.part4_container_little {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part4_container_content{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.part4_left img{
+    height: 400px;
+    width: 200px;
+}
+.part4_detail{
+    display: flex;
+    align-items: center;
+}
+i.far.fa-star.fa-3x{
+    color: orange;
+}
+.part4_detail p {
+    font-size: 25px;
+    padding-left: 10px;
+}
+.part4_right{
+    width: 60%;
+}
+#part4_logo{
+    height: 56px;
+    width: 200px;
+    object-fit: contain;
+}
+.part5_container{
+    max-width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.part5_top_container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.part5_top_container{
+    max-width: 40%;
+    display: block;
+    margin-right: 100px;
+}
+.part5_bottom_container{
+    display: flex;
+
+}
+.part5_borderbottom{
+    width: 20%  ;
+    border: solid 1.5px orange;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.part5_right_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.part5_left_content{
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 40px;
+    color: lightslategrey;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+#inputs{
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+}
+.tickbox_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selectbox{
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+.bigbox{
+    height: 60px;
+}
+.part5_button{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.footer_container_all{
+    max-width: 1300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.footer_link_container{
+    color: gray;
+    list-style: none;
+    line-height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emojies{
+    color: gray;
+}
+.footer_link_container li{
+    margin-left: 20px;
+}
+#social_icons{
+    margin-right: 20px;
+}
+.part6_top_content{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.part6_borderbottom{
+    width: 5%  ;
+    border: solid 1.5px orange;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.part6_bottom_content{
+    font-family: sans-serif;
+}
+.part6_subcontent_content{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.part6_subcontent_content li{
+    display: flex;
+    flex-direction: row;
+}
+.part6_bottom_text{
+    color: black;
+}
+.part6_detail{
+    display: flex;
+    align-items: center;
+}
+.par6_detail p {
+    font-size: 25px;
+    margin-top: 0;
+}
+#part6_emojies{
+    color: orange;
+}
+.part6_bottom_image{
+    width: 200px;
+    height: auto;
+}
+.part6_bottom_title{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.part6_bottomcontent_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.part6_container{
+    padding-bottom: 100px;
+}
+.part7_borderbottom{
+    width: 5%  ;
+    border: solid 1.5px orange;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.part7_top_title{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.part7_bottomcontent_text ul{
+    list-style: none;
+}
+.part7_detail{
+    display: flex;
+    align-items: center;
+}
+.par7_detail p {
+    font-size: 25px;
+    margin-top: 0;
+}
+#part7_emojies{
+    color: orange;
+}
+.part7_bottomcontent_text ul{
+    padding-inline-start: 0;
+}
+.part7_container{
+    font-family: sans-serif;
+}
+.part7_price{
+    font-size: 40px;
+    color: goldenrod;   
+}
+.part7_price span{
+    font-size: 20px;
+}
+.part7_bottom_topcontent{
+    display: flex;
+    flex-direction: column;
+}
+.part7_bottom_topcontent a{
+    margin-top: 10px;
+}
+.part7_bottomcontent_title{
+    font-size: 25px;
+}
+.part7_seperate_line{
+    width: 100%  ;
+    border: solid 0.5px gray;
+    margin-top: 10px;
+}
+.part7_bottom_container{
+    width: 300px;
+    background-color:  #c7c3c3;
+}
+.part7_button{
+    border-radius: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    border: solid 2px orange;
+    color: orange;
+}
+.part7_button:hover{
+    background-color: orange;
+    color: white;
+}
+.part7_button_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.part7_bottomcontent_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.part7_container{
+    background-color: #ede6e6;
+    height: 500px;
+}
